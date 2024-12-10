@@ -1,0 +1,90 @@
+
+
+body{
+    background-image: url("../images/background/Horreur.jpg");
+    background-size: cover;
+}
+ h1{
+  text-align: center;
+  color: beige;
+    }
+
+
+
+section {
+  
+    display: flex;
+    justify-content: center;
+}
+
+#introduction{
+    width: 50%;
+    height: 300px;
+    color: wheat;
+    border: 2px solid white;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#btn_demarrage{
+    width: 15%;
+    background-color: rgb(38, 26, 102);
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+}
+#btn_demarrage:hover{
+    scale: 1.5;
+}
+
+#defaite{
+    width: 50%;
+    height: 300px;
+    border: 2px solid white;
+    color: red;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#defaite img{
+    width: 30%;
+    height: 40%;
+}
+
+#victoire{
+    width: 50%;
+    height: 300px;
+    border: 2px solid white;
+    color: rgb(36, 168, 47);
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#victoire img{
+    width: 30%;
+    height: 40%;
+}
+
+
+
+.invisible{
+    display: none !important;
+}

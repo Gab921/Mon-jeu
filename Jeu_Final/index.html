@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Jeu</title>
+            <!-- Ajout de la feuille de styles -->
+            <link rel="stylesheet" href="assets/css/style.css" />
+
+            <!-- Ajout du script du programme -->
+            <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="titre">Magie et démons</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>
+                Vous devez tuer tous les ennemies et boss, afin d'augmenter le score.
+                <br />Détruisez les ennmies à l'aide des projectiles que vous pouvez lancer grâce à la barre d'espacement
+            </h2>
+            <div id="btn_demarrage" class="bouton">Démarrer</div>
+        </section>
+
+        <section id="jeu" class="invisible">
+            <canvas id="monCanvas"></canvas>
+        </section>
+        <section id="victoire" class="invisible">
+            <h2>Bravo</h2>
+            <img src="assets/images/background/pouce_vert.png" alt="Pouce en L'air">
+        </section>
+        <section id="defaite" class="invisible">
+            <h2>Meilleure chance la prochaine fois</h2>
+            <img src="assets/images/background/pouce_en_bas.jpg" alt="Pouce en bas">
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
